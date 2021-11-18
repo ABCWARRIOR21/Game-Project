@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
-    [SerializeField] protected float damage;
+    [SerializeField] private float damage;
 
-    protected void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "joris-bohnson")
+        
             collision.GetComponent<Health>().TakeDamage(damage);
     }
 }
