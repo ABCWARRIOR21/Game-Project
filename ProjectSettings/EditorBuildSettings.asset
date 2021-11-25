@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/My Levels/Level2.unity
     guid: c361ea3844e0e6a4fa470f656b62dfd9
   - enabled: 1
+    path: Assets/My Levels/Boss Arena.unity
+    guid: 07c2fe80059091d4d9682a16f18c18e8
+  - enabled: 1
     path: Assets/My Levels/EasterEgg.unity
     guid: 6232e5f9338b3a44788819e80c487e31
   m_configObjects: {}
